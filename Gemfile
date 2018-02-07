@@ -37,6 +37,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'bootstrap', '~> 4.0.0.alpha3'
 gem 'rspec-rails', '~> 3.5'
+gem 'rest-client'
 
 
 group :development, :test do

@@ -1,6 +1,7 @@
 require 'spec_helper'
 require './lib/exchange'
 
+#Lib Currency
 describe Currency do
   it "exchange" do
     json = JSON.parse(File.read("./spec/fixtures/currency_list.json"))
