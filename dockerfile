@@ -14,7 +14,3 @@ COPY Gemfile ./
 ENV BUNDLE_PATH /box
 # Copia nosso código para dentro do container
 COPY . .
-
-# Expose port 3000 to the Docker host, so we can access it 
-# from the outside.
-EXPOSE 3000
