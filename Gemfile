@@ -42,6 +42,7 @@ end
 gem 'bootstrap', '~> 4.0.0.alpha3'
 gem 'rspec-rails', '~> 3.5'
 gem 'rest-client'
+gem 'font-awesome-rails'
 
 
 group :development, :test do

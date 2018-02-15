@@ -1,24 +1,27 @@
-# README
+# Currency-Exchange
+>App Conversao de Moeda, utilizando a api [Fixer.io](http://fixer.io/)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![ruby](https://img.shields.io/badge/Ruby-2.3-red.svg).
+![rails](https://img.shields.io/badge/Rails-5.0.1-red.svg).
+![docker](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg).
 
-Things you may want to cover:
+### [Acesse o app online](https://currency-exchange-one.herokuapp.com/)
 
-* Ruby version
+Este e um app de Conversao de Moeda, que foi desenvolvido no curso Bootcamp Super Full Stack da One Bit Code [site](https://onebitcode.com).
 
-* System dependencies
+![Currency-Echange](https://github.com/jorgemtoledo/currency_exchange/blob/master/public/image.png).
 
-* Configuration
+Nesse app de conversao de moeda, o usuario precisa escolher a moeda local ou de destino, quantidade e depois escolher para qual moeda vai precisar a converter.
 
-* Database creation
+## Requisitos
+- SO (Windows, Mac OS ou Linux)
+- Docker
+- Clonar o projeto numa pasta em sua maquina
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Instalacao
+```
+docker-compose build
+docker-compose run --rm website rails db:create db:migrate
+docker-compose up
+```
+Acesso o app na url localhost:3000.
