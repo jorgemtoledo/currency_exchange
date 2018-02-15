@@ -9,9 +9,9 @@
 
 Este e um app de Conversao de Moeda, que foi desenvolvido no curso Bootcamp Super Full Stack da One Bit Code [site](https://onebitcode.com).
 
-![Currency-Echange](https://github.com/jorgemtoledo/currency_exchange/blob/master/public/image.png).
+![Currency-Echange](https://github.com/jorgemtoledo/currency_exchange/blob/master/public/image.png)
 
-Nesse app de conversao de moeda, o usuario precisa escolher a moeda local ou de destino, quantidade e depois escolher para qual moeda vai precisar a converter.
+Nesse app de conversao de moeda, o usuario precisa escolher a moeda local ou de destino, quantidade e depois escolher para qual moeda vai precisar converter.
 
 ## Requisitos
 - SO (Windows, Mac OS ou Linux)
